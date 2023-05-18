@@ -19,11 +19,11 @@ Pod::Spec.new do |s|
 
   s.description      = "this is a basic iOS develop kit"
 
-  s.homepage         = 'https://github.com/Fox/FoxAgileKit'
+  s.homepage         = 'https://github.com/hippiefox/FoxAgileKit.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Fox' => 'foxhippie5@gmail.com' }
-  s.source           = { :git => 'https://github.com/Fox/FoxAgileKit.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/hippiefox/FoxAgileKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   s.swift_version = '5.0'
 

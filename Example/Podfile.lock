@@ -1,0 +1,33 @@
+PODS:
+  - DeviceKit (5.0.0)
+  - FoxAgileKit (0.1.0):
+    - FoxAgileKit/Basic (= 0.1.0)
+    - FoxAgileKit/Device (= 0.1.0)
+    - FoxAgileKit/Extensions (= 0.1.0)
+  - FoxAgileKit/Basic (0.1.0)
+  - FoxAgileKit/Device (0.1.0):
+    - DeviceKit
+    - KeychainAccess (~> 4.2.1)
+  - FoxAgileKit/Extensions (0.1.0)
+  - KeychainAccess (4.2.2)
+
+DEPENDENCIES:
+  - FoxAgileKit (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - DeviceKit
+    - KeychainAccess
+
+EXTERNAL SOURCES:
+  FoxAgileKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DeviceKit: 0fd016a2cb67aca17c33dc23171cac270131eb88
+  FoxAgileKit: e549f978b2fec74cefbd4e81983c4aec3ba860e9
+  KeychainAccess: c0c4f7f38f6fc7bbe58f5702e25f7bd2f65abf51
+
+PODFILE CHECKSUM: 692108ae3e094b74586c8ddabc342140cee23b70
+
+COCOAPODS: 1.12.1

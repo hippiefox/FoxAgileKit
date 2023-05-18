@@ -1,0 +1,1255 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04653C83E1049C7CAA2F40F65046747B /* KeychainAccess-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C90674A4D228FE1C17BA8AD2ED6B3700 /* KeychainAccess-dummy.m */; };
+		09FF42A849E490E1752A48FEE6760732 /* ViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1339DCA129FF2083951796C2E53D641D /* ViewExt.swift */; };
+		0F12994334F3A7018BD64F31A241CF99 /* FoxAgileKitConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7E07E5C7C2548697950A74D4AD55DB /* FoxAgileKitConfig.swift */; };
+		16FB67412A16347C0005DEBB /* FAKDeviceRotate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FB67402A16347C0005DEBB /* FAKDeviceRotate.swift */; };
+		1A5770A2CD2E6A2059A9A9BBB795B986 /* Pods-FoxAgileKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1273CFF1E540ED3F14DF20B4536662FF /* Pods-FoxAgileKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A85A59FB8B981CEFF2715C2360E7B3C /* FoxAgileKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EBA8B071346460BB831C9B2589067E7 /* FoxAgileKit-dummy.m */; };
+		1E909EB12C1EAC4BA141FB502654D49B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		1FE04178F4286343AB849866BE008C67 /* FAKDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47616465071834856F979BF7B9662880 /* FAKDevice.swift */; };
+		376907383E0DDDB9E57DA234CA63763A /* Pods-FoxAgileKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D63EC71AD8AABC3722959DB6AE67B0F /* Pods-FoxAgileKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B5425106452DE0C5EF8F504765FA15B /* FAKScreenSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A61F553C1D1D18C7E608D899DA6DE2 /* FAKScreenSize.swift */; };
+		40ABE6774EDB4F79E0C7225FA9D3757C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		44FDC841C20165E2DE68E31737A401DC /* DeviceKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 552D77F3E97D550C662B94A24A0D9AA3 /* DeviceKit-dummy.m */; };
+		56E755076E40A626779C407D43FB56BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		66DFEBD769DDE3647338697BCF4522FF /* FAKPropertyWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01CA82E682C6342A6F03C12A407E2F35 /* FAKPropertyWrapper.swift */; };
+		6839CA087FB75E990CD3D45BF9FD19E4 /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE857BF552D8CDED92F3AC08BC9B05F6 /* Keychain.swift */; };
+		7226D0B4471A9D34521A5A93A0CAF246 /* FoxAgileKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EA4CAE43FB0237EA87E4A92BB599F496 /* FoxAgileKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9468B333781D54233D609DE7FCD80FDC /* Pods-FoxAgileKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF097D5C22922764DEE65E8F4C3772AD /* Pods-FoxAgileKit_Tests-dummy.m */; };
+		95E16E4AF81D34762364E6BDBAC662A2 /* Pods-FoxAgileKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F64DE8B2BF59A03808D04E2BCA999E7 /* Pods-FoxAgileKit_Example-dummy.m */; };
+		9CA58E100B0E1D6CA6D3CD919D8D5D59 /* AlertExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78682CE175339DF5A2C04D4C2F99F2BB /* AlertExt.swift */; };
+		A5178D1D35A1811CA279296B2AA301B7 /* WindowExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210BBBF2B574649BA57BBB4F976CD4FC /* WindowExt.swift */; };
+		AE419A0EB119A1B529D3E851011B031C /* DeviceKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D6089600CC47432966454E5452FDE2BE /* DeviceKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B88C1D61BCF3F22CF3116266B86821E2 /* ButtonExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5288CED62775AD0D4734CFC9543B4575 /* ButtonExt.swift */; };
+		C5C71141A72424BC3711B53BB4726744 /* Device.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10EC9D03934C70E78FD0AD57CAD06AD /* Device.generated.swift */; };
+		C8891965408101253B3CC404AFBAA558 /* FAKFuncs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167A9CEAB74140C10D08E320D7F972E1 /* FAKFuncs.swift */; };
+		CDC5A91D5D4C6EBBDDBF32F1A0D332A8 /* FAKEnumClosure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79898E3EDB3C5DC8E6C5FF66D261110F /* FAKEnumClosure.swift */; };
+		D037851EF93E4AC0678CA2DF1085417C /* TableViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6C24CDB886683147E8FB99A7FE17AF /* TableViewExt.swift */; };
+		D498A0ED607D330D87B34B6DBE249D67 /* ColorExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116481351BAB140B05383628B802ED76 /* ColorExt.swift */; };
+		D663A800F7EB840B80D398FA74D70D64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E4254652BC0204772CC04BAFA88A0B2D /* IntExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936396A3EE2549B5726B4518DE6F6B32 /* IntExt.swift */; };
+		F79E09A59D59975F12F36685DB16A197 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		FC0D4B6735CF461D3B4AC3983D79032D /* KeychainAccess-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 203290F0CE3E0C0E93A6985E7145CF93 /* KeychainAccess-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A12D3CAB4EA262CA5C5E274B6168F33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 615C831BCE925ED486B225B87E44926D;
+			remoteInfo = KeychainAccess;
+		};
+		3D35F8F2EED3832BB8CF5800A9FE458A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F7BF0C76DF6B62BACA4C2B3C920E731;
+			remoteInfo = FoxAgileKit;
+		};
+		8DA4E1C487F3119EF63BD7B8C17C2BA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CDD1C6C8885D07092D8EA708AAC0E53;
+			remoteInfo = DeviceKit;
+		};
+		9D3BDF3B56556B7455FA261EB733CFC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CDD1C6C8885D07092D8EA708AAC0E53;
+			remoteInfo = DeviceKit;
+		};
+		A820A18548A2E5FCC394CB49C7A33AC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D33092DBCEB5F6F4BF15D0FCC6E4AB38;
+			remoteInfo = "Pods-FoxAgileKit_Example";
+		};
+		B1207D20439C3A70BCCD96BFF5ACD300 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 615C831BCE925ED486B225B87E44926D;
+			remoteInfo = KeychainAccess;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01CA82E682C6342A6F03C12A407E2F35 /* FAKPropertyWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FAKPropertyWrapper.swift; sourceTree = "<group>"; };
+		021CC36056C5DD9DF3151326C9D8E724 /* FoxAgileKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FoxAgileKit.release.xcconfig; sourceTree = "<group>"; };
+		116481351BAB140B05383628B802ED76 /* ColorExt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ColorExt.swift; sourceTree = "<group>"; };
+		1273CFF1E540ED3F14DF20B4536662FF /* Pods-FoxAgileKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FoxAgileKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		1339DCA129FF2083951796C2E53D641D /* ViewExt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ViewExt.swift; sourceTree = "<group>"; };
+		15428A25FEDB074063D9DC9A27C56EF9 /* Pods-FoxAgileKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FoxAgileKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		167A9CEAB74140C10D08E320D7F972E1 /* FAKFuncs.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FAKFuncs.swift; sourceTree = "<group>"; };
+		16FB67402A16347C0005DEBB /* FAKDeviceRotate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAKDeviceRotate.swift; sourceTree = "<group>"; };
+		190D7383CCEFD8AB3F8CB93098A3F214 /* DeviceKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DeviceKit; path = DeviceKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EBA8B071346460BB831C9B2589067E7 /* FoxAgileKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FoxAgileKit-dummy.m"; sourceTree = "<group>"; };
+		203290F0CE3E0C0E93A6985E7145CF93 /* KeychainAccess-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeychainAccess-umbrella.h"; sourceTree = "<group>"; };
+		210BBBF2B574649BA57BBB4F976CD4FC /* WindowExt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WindowExt.swift; sourceTree = "<group>"; };
+		260286B820E684359C6B990F9C96BF74 /* Pods-FoxAgileKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FoxAgileKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3F64DE8B2BF59A03808D04E2BCA999E7 /* Pods-FoxAgileKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FoxAgileKit_Example-dummy.m"; sourceTree = "<group>"; };
+		47616465071834856F979BF7B9662880 /* FAKDevice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FAKDevice.swift; sourceTree = "<group>"; };
+		48DA19FFD00B17BF84C4B59CE0067CC0 /* KeychainAccess.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KeychainAccess.modulemap; sourceTree = "<group>"; };
+		5288CED62775AD0D4734CFC9543B4575 /* ButtonExt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ButtonExt.swift; sourceTree = "<group>"; };
+		552D77F3E97D550C662B94A24A0D9AA3 /* DeviceKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DeviceKit-dummy.m"; sourceTree = "<group>"; };
+		556A2B1308E1BC05CA5F4F5CEDE204DC /* Pods-FoxAgileKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FoxAgileKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		5C7FFCAADCA01E1FDCB5C360564C658F /* Pods-FoxAgileKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FoxAgileKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		5D63EC71AD8AABC3722959DB6AE67B0F /* Pods-FoxAgileKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FoxAgileKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		6537BA192F31CA6730412C79EE4A6AE1 /* Pods-FoxAgileKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FoxAgileKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		666F320CA963698961BA4C94E19B3EC3 /* FoxAgileKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FoxAgileKit-prefix.pch"; sourceTree = "<group>"; };
+		67749DDF5D04B5E970EF7F3A94B7B48E /* Pods-FoxAgileKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FoxAgileKit_Tests.modulemap"; sourceTree = "<group>"; };
+		6BCFBA0D34EE5E48EE41607DC1317B67 /* Pods-FoxAgileKit_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FoxAgileKit_Tests"; path = Pods_FoxAgileKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CA3111018BBA9CA55990D42900C0309 /* FoxAgileKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FoxAgileKit.debug.xcconfig; sourceTree = "<group>"; };
+		6FA612F09AD3DDCC5B6F72E0CE84AB65 /* FoxAgileKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FoxAgileKit-Info.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		73ED6883B149F8CB526EFF9C1781C9C3 /* KeychainAccess-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KeychainAccess-Info.plist"; sourceTree = "<group>"; };
+		78682CE175339DF5A2C04D4C2F99F2BB /* AlertExt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AlertExt.swift; sourceTree = "<group>"; };
+		79340110F1F5E74576CE45DD701D228A /* Pods-FoxAgileKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FoxAgileKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		79898E3EDB3C5DC8E6C5FF66D261110F /* FAKEnumClosure.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FAKEnumClosure.swift; sourceTree = "<group>"; };
+		7E2AE904956349FD0D2FA569ED05EB42 /* Pods-FoxAgileKit_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FoxAgileKit_Example"; path = Pods_FoxAgileKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E68F0B6C134E458FBB80EE752DC70A5 /* KeychainAccess-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeychainAccess-prefix.pch"; sourceTree = "<group>"; };
+		83A61F553C1D1D18C7E608D899DA6DE2 /* FAKScreenSize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FAKScreenSize.swift; sourceTree = "<group>"; };
+		844E81D62E40F4548704B3AC61888628 /* Pods-FoxAgileKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FoxAgileKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8E6C24CDB886683147E8FB99A7FE17AF /* TableViewExt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TableViewExt.swift; sourceTree = "<group>"; };
+		936396A3EE2549B5726B4518DE6F6B32 /* IntExt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IntExt.swift; sourceTree = "<group>"; };
+		96B4D08CC5A2234EFF74C399402EE9BC /* Pods-FoxAgileKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FoxAgileKit_Example.modulemap"; sourceTree = "<group>"; };
+		9C8A5E831B58AFD738C9D99A34D83042 /* FoxAgileKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FoxAgileKit.modulemap; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A40B864B3A65D1AB3DA03E748859CCD0 /* DeviceKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DeviceKit-prefix.pch"; sourceTree = "<group>"; };
+		AA7E07E5C7C2548697950A74D4AD55DB /* FoxAgileKitConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FoxAgileKitConfig.swift; sourceTree = "<group>"; };
+		ABE95DB9501EA16DC9B24F95F1BECF3D /* DeviceKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DeviceKit.debug.xcconfig; sourceTree = "<group>"; };
+		AE857BF552D8CDED92F3AC08BC9B05F6 /* Keychain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Keychain.swift; path = Lib/KeychainAccess/Keychain.swift; sourceTree = "<group>"; };
+		BD4F0ED3FB8B1DE24EFD5AA23344BF48 /* KeychainAccess.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KeychainAccess.debug.xcconfig; sourceTree = "<group>"; };
+		BEF0E1CEA09373CE5A2AE8EE28B7E25A /* Pods-FoxAgileKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FoxAgileKit_Tests-Info.plist"; sourceTree = "<group>"; };
+		C1B190E6D2DFD42BF0CD8C10BB6F5E5F /* FoxAgileKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = FoxAgileKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C56DFA6EEA7C4E3DF227EFBFFEBEA747 /* Pods-FoxAgileKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FoxAgileKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C90674A4D228FE1C17BA8AD2ED6B3700 /* KeychainAccess-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KeychainAccess-dummy.m"; sourceTree = "<group>"; };
+		CDDDB871953A1741067F3EE57D5C70AF /* DeviceKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DeviceKit.modulemap; sourceTree = "<group>"; };
+		CF097D5C22922764DEE65E8F4C3772AD /* Pods-FoxAgileKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FoxAgileKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		D02B0202FCA14914311F243BC4FDE856 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		D2FFCF6C1C2E22F7A5D6CF659032E0AE /* KeychainAccess.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KeychainAccess.release.xcconfig; sourceTree = "<group>"; };
+		D6089600CC47432966454E5452FDE2BE /* DeviceKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DeviceKit-umbrella.h"; sourceTree = "<group>"; };
+		E8EE7F078656FABB8F6821D10FF994BB /* KeychainAccess */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KeychainAccess; path = KeychainAccess.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA4CAE43FB0237EA87E4A92BB599F496 /* FoxAgileKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FoxAgileKit-umbrella.h"; sourceTree = "<group>"; };
+		EB3438D45CE32504061D6C643DFB571D /* Pods-FoxAgileKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FoxAgileKit_Example-Info.plist"; sourceTree = "<group>"; };
+		EC30F6ECC0F98C89370AA0599B11992C /* Pods-FoxAgileKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FoxAgileKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F10EC9D03934C70E78FD0AD57CAD06AD /* Device.generated.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Device.generated.swift; path = Source/Device.generated.swift; sourceTree = "<group>"; };
+		F8D3C611571C91579C2E4C1CE110F11C /* DeviceKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DeviceKit.release.xcconfig; sourceTree = "<group>"; };
+		F9C75BC73EF43105E558CA2105A6743C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FC0262F5B4BFAD26217F9458CB420334 /* DeviceKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DeviceKit-Info.plist"; sourceTree = "<group>"; };
+		FCF5B6E4F0CBEAAE66BCB87A1E17FF33 /* FoxAgileKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FoxAgileKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		560D306CA840C3E5556876FE127CE9BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56E755076E40A626779C407D43FB56BA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		562C4D53E2D1D0C68E365653824BBA28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D663A800F7EB840B80D398FA74D70D64 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C616238525BCC61AE0C0C4690227BE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E909EB12C1EAC4BA141FB502654D49B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B06D60A058FF8BC0FB2CFE29AC310BF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F79E09A59D59975F12F36685DB16A197 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF6288E4503060A46673AF107DAB64C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40ABE6774EDB4F79E0C7225FA9D3757C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26C9BF4BA6AAE367B00AD05E03071A9D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				78682CE175339DF5A2C04D4C2F99F2BB /* AlertExt.swift */,
+				5288CED62775AD0D4734CFC9543B4575 /* ButtonExt.swift */,
+				116481351BAB140B05383628B802ED76 /* ColorExt.swift */,
+				936396A3EE2549B5726B4518DE6F6B32 /* IntExt.swift */,
+				8E6C24CDB886683147E8FB99A7FE17AF /* TableViewExt.swift */,
+				1339DCA129FF2083951796C2E53D641D /* ViewExt.swift */,
+				210BBBF2B574649BA57BBB4F976CD4FC /* WindowExt.swift */,
+			);
+			name = Extensions;
+			path = FoxAgileKit/Classes/Extensions;
+			sourceTree = "<group>";
+		};
+		277BD54E1797B294D2B1571C2D513863 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				190D7383CCEFD8AB3F8CB93098A3F214 /* DeviceKit */,
+				FCF5B6E4F0CBEAAE66BCB87A1E17FF33 /* FoxAgileKit.framework */,
+				E8EE7F078656FABB8F6821D10FF994BB /* KeychainAccess */,
+				7E2AE904956349FD0D2FA569ED05EB42 /* Pods-FoxAgileKit_Example */,
+				6BCFBA0D34EE5E48EE41607DC1317B67 /* Pods-FoxAgileKit_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D80471E60805AFCED63EDC6F8061166 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				82EB57C00EC526CC47E78735CFE4C227 /* Pods-FoxAgileKit_Example */,
+				8DF1B71027A6DEC2D442583D61CC612D /* Pods-FoxAgileKit_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4BFF5ACCC2CB8A3EFEADB1011F764C8B /* FoxAgileKit */ = {
+			isa = PBXGroup;
+			children = (
+				6973176262D19E3493E02B70077B196F /* Basic */,
+				62A68FB51AD9A612F32E680D846E98C4 /* Device */,
+				26C9BF4BA6AAE367B00AD05E03071A9D /* Extensions */,
+				7BC53A8FAA182119E45206037FF79848 /* Pod */,
+				BB7A7E3C9ACB68434C2A7D03AE046A4A /* Support Files */,
+			);
+			name = FoxAgileKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		4FF1C23846FD83616176D385A576CB72 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				48DA19FFD00B17BF84C4B59CE0067CC0 /* KeychainAccess.modulemap */,
+				C90674A4D228FE1C17BA8AD2ED6B3700 /* KeychainAccess-dummy.m */,
+				73ED6883B149F8CB526EFF9C1781C9C3 /* KeychainAccess-Info.plist */,
+				7E68F0B6C134E458FBB80EE752DC70A5 /* KeychainAccess-prefix.pch */,
+				203290F0CE3E0C0E93A6985E7145CF93 /* KeychainAccess-umbrella.h */,
+				BD4F0ED3FB8B1DE24EFD5AA23344BF48 /* KeychainAccess.debug.xcconfig */,
+				D2FFCF6C1C2E22F7A5D6CF659032E0AE /* KeychainAccess.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KeychainAccess";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		62A68FB51AD9A612F32E680D846E98C4 /* Device */ = {
+			isa = PBXGroup;
+			children = (
+				47616465071834856F979BF7B9662880 /* FAKDevice.swift */,
+				16FB67402A16347C0005DEBB /* FAKDeviceRotate.swift */,
+			);
+			name = Device;
+			path = FoxAgileKit/Classes/Device;
+			sourceTree = "<group>";
+		};
+		6973176262D19E3493E02B70077B196F /* Basic */ = {
+			isa = PBXGroup;
+			children = (
+				79898E3EDB3C5DC8E6C5FF66D261110F /* FAKEnumClosure.swift */,
+				167A9CEAB74140C10D08E320D7F972E1 /* FAKFuncs.swift */,
+				01CA82E682C6342A6F03C12A407E2F35 /* FAKPropertyWrapper.swift */,
+				83A61F553C1D1D18C7E608D899DA6DE2 /* FAKScreenSize.swift */,
+				AA7E07E5C7C2548697950A74D4AD55DB /* FoxAgileKitConfig.swift */,
+			);
+			name = Basic;
+			path = FoxAgileKit/Classes/Basic;
+			sourceTree = "<group>";
+		};
+		6A6A55F43B8F4CA94A53EF15A73F6AF1 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4BFF5ACCC2CB8A3EFEADB1011F764C8B /* FoxAgileKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7BC53A8FAA182119E45206037FF79848 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C1B190E6D2DFD42BF0CD8C10BB6F5E5F /* FoxAgileKit.podspec */,
+				D02B0202FCA14914311F243BC4FDE856 /* LICENSE */,
+				F9C75BC73EF43105E558CA2105A6743C /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		82EB57C00EC526CC47E78735CFE4C227 /* Pods-FoxAgileKit_Example */ = {
+			isa = PBXGroup;
+			children = (
+				96B4D08CC5A2234EFF74C399402EE9BC /* Pods-FoxAgileKit_Example.modulemap */,
+				260286B820E684359C6B990F9C96BF74 /* Pods-FoxAgileKit_Example-acknowledgements.markdown */,
+				79340110F1F5E74576CE45DD701D228A /* Pods-FoxAgileKit_Example-acknowledgements.plist */,
+				3F64DE8B2BF59A03808D04E2BCA999E7 /* Pods-FoxAgileKit_Example-dummy.m */,
+				5C7FFCAADCA01E1FDCB5C360564C658F /* Pods-FoxAgileKit_Example-frameworks.sh */,
+				EB3438D45CE32504061D6C643DFB571D /* Pods-FoxAgileKit_Example-Info.plist */,
+				5D63EC71AD8AABC3722959DB6AE67B0F /* Pods-FoxAgileKit_Example-umbrella.h */,
+				C56DFA6EEA7C4E3DF227EFBFFEBEA747 /* Pods-FoxAgileKit_Example.debug.xcconfig */,
+				15428A25FEDB074063D9DC9A27C56EF9 /* Pods-FoxAgileKit_Example.release.xcconfig */,
+			);
+			name = "Pods-FoxAgileKit_Example";
+			path = "Target Support Files/Pods-FoxAgileKit_Example";
+			sourceTree = "<group>";
+		};
+		8CB6626BF5F561DCABD84F8ACF2802F0 /* DeviceKit */ = {
+			isa = PBXGroup;
+			children = (
+				F10EC9D03934C70E78FD0AD57CAD06AD /* Device.generated.swift */,
+				B999F3FAE9A444673D551F179DD8CCDF /* Support Files */,
+			);
+			path = DeviceKit;
+			sourceTree = "<group>";
+		};
+		8DF1B71027A6DEC2D442583D61CC612D /* Pods-FoxAgileKit_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				67749DDF5D04B5E970EF7F3A94B7B48E /* Pods-FoxAgileKit_Tests.modulemap */,
+				844E81D62E40F4548704B3AC61888628 /* Pods-FoxAgileKit_Tests-acknowledgements.markdown */,
+				6537BA192F31CA6730412C79EE4A6AE1 /* Pods-FoxAgileKit_Tests-acknowledgements.plist */,
+				CF097D5C22922764DEE65E8F4C3772AD /* Pods-FoxAgileKit_Tests-dummy.m */,
+				BEF0E1CEA09373CE5A2AE8EE28B7E25A /* Pods-FoxAgileKit_Tests-Info.plist */,
+				1273CFF1E540ED3F14DF20B4536662FF /* Pods-FoxAgileKit_Tests-umbrella.h */,
+				556A2B1308E1BC05CA5F4F5CEDE204DC /* Pods-FoxAgileKit_Tests.debug.xcconfig */,
+				EC30F6ECC0F98C89370AA0599B11992C /* Pods-FoxAgileKit_Tests.release.xcconfig */,
+			);
+			name = "Pods-FoxAgileKit_Tests";
+			path = "Target Support Files/Pods-FoxAgileKit_Tests";
+			sourceTree = "<group>";
+		};
+		B999F3FAE9A444673D551F179DD8CCDF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CDDDB871953A1741067F3EE57D5C70AF /* DeviceKit.modulemap */,
+				552D77F3E97D550C662B94A24A0D9AA3 /* DeviceKit-dummy.m */,
+				FC0262F5B4BFAD26217F9458CB420334 /* DeviceKit-Info.plist */,
+				A40B864B3A65D1AB3DA03E748859CCD0 /* DeviceKit-prefix.pch */,
+				D6089600CC47432966454E5452FDE2BE /* DeviceKit-umbrella.h */,
+				ABE95DB9501EA16DC9B24F95F1BECF3D /* DeviceKit.debug.xcconfig */,
+				F8D3C611571C91579C2E4C1CE110F11C /* DeviceKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DeviceKit";
+			sourceTree = "<group>";
+		};
+		BB7A7E3C9ACB68434C2A7D03AE046A4A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9C8A5E831B58AFD738C9D99A34D83042 /* FoxAgileKit.modulemap */,
+				1EBA8B071346460BB831C9B2589067E7 /* FoxAgileKit-dummy.m */,
+				6FA612F09AD3DDCC5B6F72E0CE84AB65 /* FoxAgileKit-Info.plist */,
+				666F320CA963698961BA4C94E19B3EC3 /* FoxAgileKit-prefix.pch */,
+				EA4CAE43FB0237EA87E4A92BB599F496 /* FoxAgileKit-umbrella.h */,
+				6CA3111018BBA9CA55990D42900C0309 /* FoxAgileKit.debug.xcconfig */,
+				021CC36056C5DD9DF3151326C9D8E724 /* FoxAgileKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FoxAgileKit";
+			sourceTree = "<group>";
+		};
+		C2E203FC3F4B161EDF31F3CB1FECE169 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8CB6626BF5F561DCABD84F8ACF2802F0 /* DeviceKit */,
+				D9CC90C41E94639B556FC7084FEEC35B /* KeychainAccess */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				6A6A55F43B8F4CA94A53EF15A73F6AF1 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				C2E203FC3F4B161EDF31F3CB1FECE169 /* Pods */,
+				277BD54E1797B294D2B1571C2D513863 /* Products */,
+				3D80471E60805AFCED63EDC6F8061166 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9CC90C41E94639B556FC7084FEEC35B /* KeychainAccess */ = {
+			isa = PBXGroup;
+			children = (
+				AE857BF552D8CDED92F3AC08BC9B05F6 /* Keychain.swift */,
+				4FF1C23846FD83616176D385A576CB72 /* Support Files */,
+			);
+			path = KeychainAccess;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		387D3D269E93C594461DF2452CB297F1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7226D0B4471A9D34521A5A93A0CAF246 /* FoxAgileKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99BC93F69862CEEA85CD108E26759D09 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC0D4B6735CF461D3B4AC3983D79032D /* KeychainAccess-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6B24C5586601EE473D16AB4F25335EF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				376907383E0DDDB9E57DA234CA63763A /* Pods-FoxAgileKit_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B869F45523B08C188EC6722E1DD8C363 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE419A0EB119A1B529D3E851011B031C /* DeviceKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F78118BA4576E8A7EBA203813F750AEB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A5770A2CD2E6A2059A9A9BBB795B986 /* Pods-FoxAgileKit_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0F7BF0C76DF6B62BACA4C2B3C920E731 /* FoxAgileKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5B5D1A0A99FFD7F0DA7A6859DDF8218 /* Build configuration list for PBXNativeTarget "FoxAgileKit" */;
+			buildPhases = (
+				387D3D269E93C594461DF2452CB297F1 /* Headers */,
+				8CD388CD7572F42493B2B921CD7FC0D1 /* Sources */,
+				562C4D53E2D1D0C68E365653824BBA28 /* Frameworks */,
+				1B1B92C79F5046F5BFDD0A6F479858FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E18B6E9D8C58BB08BC830F6823585C32 /* PBXTargetDependency */,
+				267DD670EC5DD62D6DD7CC7FD76E8518 /* PBXTargetDependency */,
+			);
+			name = FoxAgileKit;
+			productName = FoxAgileKit;
+			productReference = FCF5B6E4F0CBEAAE66BCB87A1E17FF33 /* FoxAgileKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4CDD1C6C8885D07092D8EA708AAC0E53 /* DeviceKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE2416AB9D0716DFAC4C6C724B0E6744 /* Build configuration list for PBXNativeTarget "DeviceKit" */;
+			buildPhases = (
+				B869F45523B08C188EC6722E1DD8C363 /* Headers */,
+				B024EDE69B3C51D739853194CE746FE4 /* Sources */,
+				6C616238525BCC61AE0C0C4690227BE1 /* Frameworks */,
+				8EE6FBD90231B8B4128EE874B295E36F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeviceKit;
+			productName = DeviceKit;
+			productReference = 190D7383CCEFD8AB3F8CB93098A3F214 /* DeviceKit */;
+			productType = "com.apple.product-type.framework";
+		};
+		615C831BCE925ED486B225B87E44926D /* KeychainAccess */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C74B744D3252109BEB8F74A4BDAED62E /* Build configuration list for PBXNativeTarget "KeychainAccess" */;
+			buildPhases = (
+				99BC93F69862CEEA85CD108E26759D09 /* Headers */,
+				D026406518E987053A41DA830033E6BA /* Sources */,
+				B06D60A058FF8BC0FB2CFE29AC310BF4 /* Frameworks */,
+				51C6DBF9BFDC1773E649781C455C9F39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeychainAccess;
+			productName = KeychainAccess;
+			productReference = E8EE7F078656FABB8F6821D10FF994BB /* KeychainAccess */;
+			productType = "com.apple.product-type.framework";
+		};
+		D33092DBCEB5F6F4BF15D0FCC6E4AB38 /* Pods-FoxAgileKit_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBAFFCBDA1521F536C5ADC0FFB9A054F /* Build configuration list for PBXNativeTarget "Pods-FoxAgileKit_Example" */;
+			buildPhases = (
+				A6B24C5586601EE473D16AB4F25335EF /* Headers */,
+				FBE197F3D3E7AD53CDD67F9762EF7FA6 /* Sources */,
+				560D306CA840C3E5556876FE127CE9BB /* Frameworks */,
+				D54555BF890B11B97B5D271C00CEE71A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				087400C1D698DB970914CB9FA74C4814 /* PBXTargetDependency */,
+				F17BB8C8B18F8A38948A6C149BCF7C40 /* PBXTargetDependency */,
+				DB8E2AE9E98ED1BB847195A33D577BA4 /* PBXTargetDependency */,
+			);
+			name = "Pods-FoxAgileKit_Example";
+			productName = Pods_FoxAgileKit_Example;
+			productReference = 7E2AE904956349FD0D2FA569ED05EB42 /* Pods-FoxAgileKit_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		EF2FBB95BF0E67114544C22FAC6BB05E /* Pods-FoxAgileKit_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11EEAF0A5511B1F48987B29CCC5CA22D /* Build configuration list for PBXNativeTarget "Pods-FoxAgileKit_Tests" */;
+			buildPhases = (
+				F78118BA4576E8A7EBA203813F750AEB /* Headers */,
+				6DEDFD2E49C694649BC6E2B21DA70A7E /* Sources */,
+				DF6288E4503060A46673AF107DAB64C9 /* Frameworks */,
+				64726A5AE6E8F8248AB8E915EC666EEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D34666DDB55D16A8D9612B3B0C33513D /* PBXTargetDependency */,
+			);
+			name = "Pods-FoxAgileKit_Tests";
+			productName = Pods_FoxAgileKit_Tests;
+			productReference = 6BCFBA0D34EE5E48EE41607DC1317B67 /* Pods-FoxAgileKit_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					0F7BF0C76DF6B62BACA4C2B3C920E731 = {
+						LastSwiftMigration = "";
+					};
+				};
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 277BD54E1797B294D2B1571C2D513863 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CDD1C6C8885D07092D8EA708AAC0E53 /* DeviceKit */,
+				0F7BF0C76DF6B62BACA4C2B3C920E731 /* FoxAgileKit */,
+				615C831BCE925ED486B225B87E44926D /* KeychainAccess */,
+				D33092DBCEB5F6F4BF15D0FCC6E4AB38 /* Pods-FoxAgileKit_Example */,
+				EF2FBB95BF0E67114544C22FAC6BB05E /* Pods-FoxAgileKit_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B1B92C79F5046F5BFDD0A6F479858FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51C6DBF9BFDC1773E649781C455C9F39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64726A5AE6E8F8248AB8E915EC666EEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EE6FBD90231B8B4128EE874B295E36F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D54555BF890B11B97B5D271C00CEE71A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6DEDFD2E49C694649BC6E2B21DA70A7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9468B333781D54233D609DE7FCD80FDC /* Pods-FoxAgileKit_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CD388CD7572F42493B2B921CD7FC0D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CA58E100B0E1D6CA6D3CD919D8D5D59 /* AlertExt.swift in Sources */,
+				B88C1D61BCF3F22CF3116266B86821E2 /* ButtonExt.swift in Sources */,
+				D498A0ED607D330D87B34B6DBE249D67 /* ColorExt.swift in Sources */,
+				1FE04178F4286343AB849866BE008C67 /* FAKDevice.swift in Sources */,
+				CDC5A91D5D4C6EBBDDBF32F1A0D332A8 /* FAKEnumClosure.swift in Sources */,
+				C8891965408101253B3CC404AFBAA558 /* FAKFuncs.swift in Sources */,
+				16FB67412A16347C0005DEBB /* FAKDeviceRotate.swift in Sources */,
+				66DFEBD769DDE3647338697BCF4522FF /* FAKPropertyWrapper.swift in Sources */,
+				3B5425106452DE0C5EF8F504765FA15B /* FAKScreenSize.swift in Sources */,
+				1A85A59FB8B981CEFF2715C2360E7B3C /* FoxAgileKit-dummy.m in Sources */,
+				0F12994334F3A7018BD64F31A241CF99 /* FoxAgileKitConfig.swift in Sources */,
+				E4254652BC0204772CC04BAFA88A0B2D /* IntExt.swift in Sources */,
+				D037851EF93E4AC0678CA2DF1085417C /* TableViewExt.swift in Sources */,
+				09FF42A849E490E1752A48FEE6760732 /* ViewExt.swift in Sources */,
+				A5178D1D35A1811CA279296B2AA301B7 /* WindowExt.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B024EDE69B3C51D739853194CE746FE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5C71141A72424BC3711B53BB4726744 /* Device.generated.swift in Sources */,
+				44FDC841C20165E2DE68E31737A401DC /* DeviceKit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D026406518E987053A41DA830033E6BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6839CA087FB75E990CD3D45BF9FD19E4 /* Keychain.swift in Sources */,
+				04653C83E1049C7CAA2F40F65046747B /* KeychainAccess-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBE197F3D3E7AD53CDD67F9762EF7FA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95E16E4AF81D34762364E6BDBAC662A2 /* Pods-FoxAgileKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		087400C1D698DB970914CB9FA74C4814 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DeviceKit;
+			target = 4CDD1C6C8885D07092D8EA708AAC0E53 /* DeviceKit */;
+			targetProxy = 9D3BDF3B56556B7455FA261EB733CFC8 /* PBXContainerItemProxy */;
+		};
+		267DD670EC5DD62D6DD7CC7FD76E8518 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KeychainAccess;
+			target = 615C831BCE925ED486B225B87E44926D /* KeychainAccess */;
+			targetProxy = 1A12D3CAB4EA262CA5C5E274B6168F33 /* PBXContainerItemProxy */;
+		};
+		D34666DDB55D16A8D9612B3B0C33513D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-FoxAgileKit_Example";
+			target = D33092DBCEB5F6F4BF15D0FCC6E4AB38 /* Pods-FoxAgileKit_Example */;
+			targetProxy = A820A18548A2E5FCC394CB49C7A33AC2 /* PBXContainerItemProxy */;
+		};
+		DB8E2AE9E98ED1BB847195A33D577BA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KeychainAccess;
+			target = 615C831BCE925ED486B225B87E44926D /* KeychainAccess */;
+			targetProxy = B1207D20439C3A70BCCD96BFF5ACD300 /* PBXContainerItemProxy */;
+		};
+		E18B6E9D8C58BB08BC830F6823585C32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DeviceKit;
+			target = 4CDD1C6C8885D07092D8EA708AAC0E53 /* DeviceKit */;
+			targetProxy = 8DA4E1C487F3119EF63BD7B8C17C2BA6 /* PBXContainerItemProxy */;
+		};
+		F17BB8C8B18F8A38948A6C149BCF7C40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FoxAgileKit;
+			target = 0F7BF0C76DF6B62BACA4C2B3C920E731 /* FoxAgileKit */;
+			targetProxy = 3D35F8F2EED3832BB8CF5800A9FE458A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		337EE0C5E3E950FF1509BC23710BAF93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD4F0ED3FB8B1DE24EFD5AA23344BF48 /* KeychainAccess.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KeychainAccess/KeychainAccess-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KeychainAccess/KeychainAccess-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KeychainAccess/KeychainAccess.modulemap";
+				PRODUCT_MODULE_NAME = KeychainAccess;
+				PRODUCT_NAME = KeychainAccess;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3A1F1C36C186C3DEEFD48A9E95423F14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8D3C611571C91579C2E4C1CE110F11C /* DeviceKit.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DeviceKit/DeviceKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DeviceKit/DeviceKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DeviceKit/DeviceKit.modulemap";
+				PRODUCT_MODULE_NAME = DeviceKit;
+				PRODUCT_NAME = DeviceKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		412A2C81A84FDCF46963682C0D997BAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15428A25FEDB074063D9DC9A27C56EF9 /* Pods-FoxAgileKit_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FoxAgileKit_Example/Pods-FoxAgileKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FoxAgileKit_Example/Pods-FoxAgileKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		46078E1FE3ED16F90E20258840352EE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 556A2B1308E1BC05CA5F4F5CEDE204DC /* Pods-FoxAgileKit_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FoxAgileKit_Tests/Pods-FoxAgileKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FoxAgileKit_Tests/Pods-FoxAgileKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4FE3352DA9BB3BDF25F711ABF8DEAC3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C56DFA6EEA7C4E3DF227EFBFFEBEA747 /* Pods-FoxAgileKit_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FoxAgileKit_Example/Pods-FoxAgileKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FoxAgileKit_Example/Pods-FoxAgileKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8527D7F5E574DE548823E6B8D798C049 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2FFCF6C1C2E22F7A5D6CF659032E0AE /* KeychainAccess.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KeychainAccess/KeychainAccess-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KeychainAccess/KeychainAccess-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KeychainAccess/KeychainAccess.modulemap";
+				PRODUCT_MODULE_NAME = KeychainAccess;
+				PRODUCT_NAME = KeychainAccess;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		872F89A284BC275413D179D1F6452A21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC30F6ECC0F98C89370AA0599B11992C /* Pods-FoxAgileKit_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FoxAgileKit_Tests/Pods-FoxAgileKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FoxAgileKit_Tests/Pods-FoxAgileKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B6F144687C91A12D20F0B2169AEC0702 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 021CC36056C5DD9DF3151326C9D8E724 /* FoxAgileKit.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FoxAgileKit/FoxAgileKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FoxAgileKit/FoxAgileKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FoxAgileKit/FoxAgileKit.modulemap";
+				PRODUCT_MODULE_NAME = FoxAgileKit;
+				PRODUCT_NAME = FoxAgileKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E4412AB5DBBB52F26D2C74DDD3F88EA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CA3111018BBA9CA55990D42900C0309 /* FoxAgileKit.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FoxAgileKit/FoxAgileKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FoxAgileKit/FoxAgileKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FoxAgileKit/FoxAgileKit.modulemap";
+				PRODUCT_MODULE_NAME = FoxAgileKit;
+				PRODUCT_NAME = FoxAgileKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F4FE4965D0D6A8CE7095119AAA3806DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABE95DB9501EA16DC9B24F95F1BECF3D /* DeviceKit.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DeviceKit/DeviceKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DeviceKit/DeviceKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DeviceKit/DeviceKit.modulemap";
+				PRODUCT_MODULE_NAME = DeviceKit;
+				PRODUCT_NAME = DeviceKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11EEAF0A5511B1F48987B29CCC5CA22D /* Build configuration list for PBXNativeTarget "Pods-FoxAgileKit_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46078E1FE3ED16F90E20258840352EE9 /* Debug */,
+				872F89A284BC275413D179D1F6452A21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5B5D1A0A99FFD7F0DA7A6859DDF8218 /* Build configuration list for PBXNativeTarget "FoxAgileKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4412AB5DBBB52F26D2C74DDD3F88EA0 /* Debug */,
+				B6F144687C91A12D20F0B2169AEC0702 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C74B744D3252109BEB8F74A4BDAED62E /* Build configuration list for PBXNativeTarget "KeychainAccess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				337EE0C5E3E950FF1509BC23710BAF93 /* Debug */,
+				8527D7F5E574DE548823E6B8D798C049 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE2416AB9D0716DFAC4C6C724B0E6744 /* Build configuration list for PBXNativeTarget "DeviceKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4FE4965D0D6A8CE7095119AAA3806DA /* Debug */,
+				3A1F1C36C186C3DEEFD48A9E95423F14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBAFFCBDA1521F536C5ADC0FFB9A054F /* Build configuration list for PBXNativeTarget "Pods-FoxAgileKit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FE3352DA9BB3BDF25F711ABF8DEAC3E /* Debug */,
+				412A2C81A84FDCF46963682C0D997BAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

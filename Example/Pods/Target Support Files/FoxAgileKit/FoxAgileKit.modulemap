@@ -1,0 +1,6 @@
+framework module FoxAgileKit {
+  umbrella header "FoxAgileKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

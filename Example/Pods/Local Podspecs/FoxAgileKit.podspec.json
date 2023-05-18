@@ -1,0 +1,44 @@
+{
+  "name": "FoxAgileKit",
+  "version": "0.1.0",
+  "summary": "This is an agile iOS develop kit",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Fox/FoxAgileKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Fox": "foxhippie5@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Fox/FoxAgileKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "source_files": "FoxAgileKit/Classes/**/*",
+  "subspecs": [
+    {
+      "name": "Extensions",
+      "source_files": "FoxAgileKit/Classes/Extensions/*"
+    },
+    {
+      "name": "Basic",
+      "source_files": "FoxAgileKit/Classes/Basic/*"
+    },
+    {
+      "name": "Device",
+      "source_files": "FoxAgileKit/Classes/Device/*",
+      "dependencies": {
+        "KeychainAccess": [
+          "~> 4.2.1"
+        ],
+        "DeviceKit": [
+
+        ]
+      }
+    }
+  ]
+}

@@ -39,6 +39,15 @@
 
         ]
       }
+    },
+    {
+      "name": "Widgets",
+      "source_files": "FoxAgileKit/Classes/Widgets/*",
+      "dependencies": {
+        "SnapKit": [
+
+        ]
+      }
     }
   ]
 }

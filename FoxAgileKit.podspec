@@ -48,6 +48,8 @@ TODO: Add long description of the pod here.
   
   s.subspec 'Widgets' do |ww|
       ww.source_files = 'FoxAgileKit/Classes/Widgets/*'
+      ww.dependency 'SnapKit'
+      ww.dependency 'MTPower/Basic'
   end
 
 

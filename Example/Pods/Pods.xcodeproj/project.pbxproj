@@ -11,6 +11,7 @@
 		09FF42A849E490E1752A48FEE6760732 /* ViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1339DCA129FF2083951796C2E53D641D /* ViewExt.swift */; };
 		0F12994334F3A7018BD64F31A241CF99 /* FoxAgileKitConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7E07E5C7C2548697950A74D4AD55DB /* FoxAgileKitConfig.swift */; };
 		16FB67412A16347C0005DEBB /* FAKDeviceRotate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FB67402A16347C0005DEBB /* FAKDeviceRotate.swift */; };
+		16FB67432A1637B50005DEBB /* FAKBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FB67422A1637B50005DEBB /* FAKBarButtonItem.swift */; };
 		1A5770A2CD2E6A2059A9A9BBB795B986 /* Pods-FoxAgileKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1273CFF1E540ED3F14DF20B4536662FF /* Pods-FoxAgileKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1A85A59FB8B981CEFF2715C2360E7B3C /* FoxAgileKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EBA8B071346460BB831C9B2589067E7 /* FoxAgileKit-dummy.m */; };
 		1E909EB12C1EAC4BA141FB502654D49B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -94,6 +95,7 @@
 		15428A25FEDB074063D9DC9A27C56EF9 /* Pods-FoxAgileKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FoxAgileKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		167A9CEAB74140C10D08E320D7F972E1 /* FAKFuncs.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FAKFuncs.swift; sourceTree = "<group>"; };
 		16FB67402A16347C0005DEBB /* FAKDeviceRotate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAKDeviceRotate.swift; sourceTree = "<group>"; };
+		16FB67422A1637B50005DEBB /* FAKBarButtonItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FAKBarButtonItem.swift; path = FoxAgileKit/Classes/Widgets/FAKBarButtonItem.swift; sourceTree = "<group>"; };
 		190D7383CCEFD8AB3F8CB93098A3F214 /* DeviceKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DeviceKit; path = DeviceKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EBA8B071346460BB831C9B2589067E7 /* FoxAgileKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FoxAgileKit-dummy.m"; sourceTree = "<group>"; };
 		203290F0CE3E0C0E93A6985E7145CF93 /* KeychainAccess-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeychainAccess-umbrella.h"; sourceTree = "<group>"; };
@@ -240,6 +242,7 @@
 				26C9BF4BA6AAE367B00AD05E03071A9D /* Extensions */,
 				7BC53A8FAA182119E45206037FF79848 /* Pod */,
 				BB7A7E3C9ACB68434C2A7D03AE046A4A /* Support Files */,
+				16FB67422A1637B50005DEBB /* FAKBarButtonItem.swift */,
 			);
 			name = FoxAgileKit;
 			path = ../..;
@@ -651,6 +654,7 @@
 				9CA58E100B0E1D6CA6D3CD919D8D5D59 /* AlertExt.swift in Sources */,
 				B88C1D61BCF3F22CF3116266B86821E2 /* ButtonExt.swift in Sources */,
 				D498A0ED607D330D87B34B6DBE249D67 /* ColorExt.swift in Sources */,
+				16FB67432A1637B50005DEBB /* FAKBarButtonItem.swift in Sources */,
 				1FE04178F4286343AB849866BE008C67 /* FAKDevice.swift in Sources */,
 				CDC5A91D5D4C6EBBDDBF32F1A0D332A8 /* FAKEnumClosure.swift in Sources */,
 				C8891965408101253B3CC404AFBAA558 /* FAKFuncs.swift in Sources */,

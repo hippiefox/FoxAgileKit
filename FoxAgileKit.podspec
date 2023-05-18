@@ -45,6 +45,10 @@ TODO: Add long description of the pod here.
       dd.dependency 'KeychainAccess', '~> 4.2.1'
       dd.dependency 'DeviceKit'
   end
+  
+  s.subspec 'Widgets' do |ww|
+      ww.source_files = 'FoxAgileKit/Classes/Widgets/*'
+  end
 
 
   

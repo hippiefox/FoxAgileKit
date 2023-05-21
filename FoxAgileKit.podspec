@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FoxAgileKit'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'This is an agile iOS develop kit'
 
 # This description is used to generate tags and improve search results.
@@ -49,6 +49,12 @@ Pod::Spec.new do |s|
       ww.source_files = 'FoxAgileKit/Classes/Widgets/*'
       ww.dependency 'SnapKit'
       ww.dependency 'FoxAgileKit/Basic'
+  end
+  
+  s.subspec 'NetListener' do |nl|
+      nl.source_files = 'FoxAgileKit/Classes/NetListener/*'
+      nl.dependency 'RealReachability'
+      
   end
 
 

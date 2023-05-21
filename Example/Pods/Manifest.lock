@@ -4,15 +4,24 @@ PODS:
     - FoxAgileKit/Basic (= 0.1.0)
     - FoxAgileKit/Device (= 0.1.0)
     - FoxAgileKit/Extensions (= 0.1.0)
+    - FoxAgileKit/NetListener (= 0.1.0)
     - FoxAgileKit/Widgets (= 0.1.0)
   - FoxAgileKit/Basic (0.1.0)
   - FoxAgileKit/Device (0.1.0):
     - DeviceKit
     - KeychainAccess (~> 4.2.1)
   - FoxAgileKit/Extensions (0.1.0)
+  - FoxAgileKit/NetListener (0.1.0):
+    - RealReachability
   - FoxAgileKit/Widgets (0.1.0):
+    - FoxAgileKit/Basic
     - SnapKit
   - KeychainAccess (4.2.2)
+  - RealReachability (1.4.1):
+    - RealReachability/Connection (= 1.4.1)
+    - RealReachability/Ping (= 1.4.1)
+  - RealReachability/Connection (1.4.1)
+  - RealReachability/Ping (1.4.1)
   - SnapKit (5.6.0)
 
 DEPENDENCIES:
@@ -22,6 +31,7 @@ SPEC REPOS:
   trunk:
     - DeviceKit
     - KeychainAccess
+    - RealReachability
     - SnapKit
 
 EXTERNAL SOURCES:
@@ -30,8 +40,9 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   DeviceKit: 0fd016a2cb67aca17c33dc23171cac270131eb88
-  FoxAgileKit: cd017f6186cc0925650525b7985b87f40d4c73bd
+  FoxAgileKit: a763d4b98c753f57b62d808c968dfc1f5ba81751
   KeychainAccess: c0c4f7f38f6fc7bbe58f5702e25f7bd2f65abf51
+  RealReachability: 828e74e3a1e89ba8f54395344637689cf4065c36
   SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
 
 PODFILE CHECKSUM: 692108ae3e094b74586c8ddabc342140cee23b70
